@@ -553,6 +553,9 @@ a {
 /* Projects Card */
 
 .project {
+  display:flex;
+  justify-content: space-between;
+  flex-direction: column;
   border-radius: 1rem;
   margin: 1rem 0;
   padding: 0.5rem 1rem;
@@ -568,8 +571,26 @@ a {
   margin: 1rem 0.5rem;
 }
 
+.project .description-wrapper {
+  display: flex;
+}
+
+.project-title {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
 .project-desc {
   line-height: 1rem;
+}
+
+.project-image {
+  width: 100%;
 }
 
 .project-stars-forks {
