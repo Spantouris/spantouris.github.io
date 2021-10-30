@@ -40,32 +40,24 @@
   {% if site.itchio_username != null %}
   <a class="social-link itchio" aria-label="My Itcio" target="_blank" rel="noreferrer"
     href="https://{{site.itchio_username}}.itch.io/">
-    <svg viewBox="0 0 200 200" class="circle">
-      <circle cx="100" cy="100" r="80" />
-    </svg>
     <div class="social">
       <svg class="social-svg" viewBox="0 0 48 48">
         <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ " /assets/img/brands.svg#itch-io" |
           prepend: site.baseurl }}"></use>
       </svg>
     </div>
-    <span class="label">Itch.io</span>
   </a>
   {% endif %}
 
   {% if site.discord_server_url != null %}
   <a class="social-link discord" aria-label="Discord Community" target="_blank" rel="noreferrer"
     href="{{site.discord_server_url}}">
-    <svg viewBox="0 0 200 200" class="circle">
-      <circle cx="100" cy="100" r="80" />
-    </svg>
     <div class="social">
       <svg class="social-svg" viewBox="0 0 48 48">
         <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ " /assets/img/brands.svg#discord" |
           prepend: site.baseurl }}"></use>
       </svg>
     </div>
-    <span class="label">Discord</span>
   </a>
   {% endif %}
 </div>

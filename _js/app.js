@@ -27,8 +27,6 @@ $(document).ready(function() {
     delay: 100,
     once: true
   });
-
-  randomizeOrder();
 });
 
 /* FUNCTIONS */
@@ -101,17 +99,3 @@ TxtRotate.prototype.tick = function() {
     that.tick();
   }, delta);
 };
-
-/* Word Cloud */
-
-function randomizeOrder() {
-  var parent = document.getElementById('skills');
-  var divs = parent.getElementsByTagName('div');
-  var frag = document.createDocumentFragment();
-
-  // Randomize order of skills
-  while (divs.length) {
-    frag.appendChild(divs[Math.floor(Math.random() * divs.length)]);
-  }
-  parent.appendChild(frag);
-}
