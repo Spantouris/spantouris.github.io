@@ -415,65 +415,6 @@ a {
   }
 }
 
-/* Skills Section */
-
-#skills {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-
-  div {
-    padding: 0.2rem;
-    transition: opacity 0.5s;
-  }
-
-  div[skill-type="language"] {
-    color: #e84a5f;
-  }
-
-  div[skill-type="framework"] {
-    color: #ff847c;
-  }
-
-  div[skill-type="tool"] {
-    color: #fecea8;
-  }
-
-  div[skill-weight="1"] {
-    font-size: 0.75rem;
-    line-height: 0.25rem;
-  }
-
-  div[skill-weight="2"] {
-    font-size: 1.25rem;
-    line-height: 0.75rem;
-  }
-
-  div[skill-weight="3"] {
-    font-size: 1.75rem;
-    line-height: 1.25rem;
-  }
-
-  div[skill-weight="4"] {
-    font-size: 2.25rem;
-    line-height: 1.75rem;
-  }
-
-  div[skill-weight="5"] {
-    font-size: 2.75rem;
-    line-height: 2.25rem;
-  }
-
-  input[type="radio"] {
-    display: none;
-  }
-
-  .filter-button {
-    display: none;
-  }
-}
-
 /* Timeline Section */
 
 .timeline-wrapper {
@@ -542,6 +483,18 @@ a {
     text-align: center;
   }
 
+  .flag-noarrow {
+    background: $bg-color;
+    border-radius: 0.5rem;
+    font-weight: $font-weight-strong;
+    padding: 0.25rem 0.5rem;
+
+    span {
+      position: relative;
+      transition: 0.4s;
+    }
+  }
+
   .flag {
     background: $bg-color;
     border-radius: 0.5rem;
@@ -584,7 +537,8 @@ a {
     background: $bg-color;
     border-radius: 0.5rem;
     display: inline-block;
-    padding: .6rem;
+    padding: .5rem;
+    margin: 0rem .5rem 0rem .5rem;
   }
 
   .desc {
@@ -712,76 +666,6 @@ a {
 
     .social {
       font-size: 2rem;
-    }
-  }
-
-  #skills {
-    div[skill-weight="1"] {
-      font-size: 1rem;
-      line-height: 0rem;
-    }
-
-    div[skill-weight="2"] {
-      font-size: 2rem;
-      line-height: 1rem;
-    }
-
-    div[skill-weight="3"] {
-      font-size: 3rem;
-      line-height: 2rem;
-    }
-
-    div[skill-weight="4"] {
-      font-size: 4rem;
-      line-height: 3rem;
-    }
-
-    div[skill-weight="5"] {
-      font-size: 5rem;
-      line-height: 4rem;
-    }
-
-    .filter-button {
-      border-radius: 0.5rem;
-      cursor: pointer;
-      display: unset;
-      margin: 0 0.5rem 1rem;
-      padding: 0.5rem 0.25rem;
-      text-align: center;
-      width: 21%;
-
-      &:hover {
-        letter-spacing: 0.25rem;
-      }
-    }
-
-    @mixin filter-out {
-      height: 0;
-      margin: 0;
-      opacity: 0;
-      padding: 0;
-      width: 0;
-    }
-
-    input[type="radio"]:checked + .filter-button {
-      color: $primary-color;
-      font-weight: $font-weight-strong;
-      @include neumorphism-button-pressed();
-    }
-
-    input[id="language"]:checked ~ div[skill-type="framework"],
-    input[id="language"]:checked ~ div[skill-type="tool"] {
-      @include filter-out;
-    }
-
-    input[id="framework"]:checked ~ div[skill-type="language"],
-    input[id="framework"]:checked ~ div[skill-type="tool"] {
-      @include filter-out;
-    }
-
-    input[id="tool"]:checked ~ div[skill-type="language"],
-    input[id="tool"]:checked ~ div[skill-type="framework"] {
-      @include filter-out;
     }
   }
 

@@ -17,18 +17,12 @@ discord_server_url: https://discord.gg/k7EJSAkWDG
 # About me
 show_aboutme_card: true
 about_me_title: About Me
-about_me_description: My name is <b>John Spantouris</b>, born and raised in Athens, Greece. Lead Software Engineer for <a href="https://www.pobuca.com" class="highlight-link" target="_blank" rel="noreferrer">Pobuca</a>, building Web Applications with .NET on Microsoft Azure. Hobbyist game developer since 2013.
+about_me_description: My name is <b>John Spantouris</b>, born and living in Athens, Greece. Lead Software Engineer for <a href="https://www.pobuca.com" class="highlight-link" target="_blank" rel="noreferrer">Pobuca</a>, building Web Applications with .NET on Microsoft Azure. Hobbyist game developer since 2013.
 
-# TIMELINE SECTION
-# show_timeline_card:
-# > setting this to true, will display the Timeline section
-# > setting this to false, will omit the Timeline section
-show_timeline_card: false
+# Timeline
+show_timeline_card: true
 # timeline_title: The will be displayed as the title in the Timeline section
-timeline_title: Education & Experience
-# cv_download_link: The link where you host your cv.
-# > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link: https://example.com/
+timeline_title: Life Events
 
 # PROJECTS SECTION
 # show_projects_card:
