@@ -51,7 +51,7 @@ os_projects_title: Open Source Projects
 # Contact
 show_contact_card: true
 contact_title: Contact
-contact_description: Feel free to contact me for any exciting project you may have <a class="highlight-link" href="mailto:john.spantouris@gmail.com" target="_blank" rel="noreferrer">here</a> or for any job opportunity you think I am a fit for. Don't forget to join our Greek Artist Discord Community.
+contact_description: Do you have any exciting project or a job opportunity that you think I may be a good fit for? Feel free to contact me <a class="highlight-link" href="mailto:john.spantouris@gmail.com" target="_blank" rel="noreferrer">here</a>. Don't forget to join our Greek Artist Discord Community as well if you'd like 😁
 
 exclude:
   [
