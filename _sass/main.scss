@@ -20,7 +20,7 @@ $card-bg-color: linear-gradient(
   rgba(115, 115, 115, 0.15) 15%,
   rgba(43, 45, 47, 1) 80%
 );
-$primary-color: #2672c9;
+$primary-color: #2c7cbe;
 
 /* General */
 
@@ -61,7 +61,7 @@ a {
 
 .highlight-title {
   color: $primary-color;
-  text-shadow: 0.25rem 0.25rem 0.25rem $primary-color;
+  text-shadow: 0.15rem 0.15rem 0.15rem $primary-color;
 }
 
 .highlight-link {
@@ -309,7 +309,7 @@ a {
         colorEmail 1s linear forwards;
     }
     .social-svg {
-      fill: #d44638;
+      fill: #e01300;
     }
   }
 
@@ -339,7 +339,7 @@ a {
         colorItchio 1s linear forwards;
     }
     .social-svg {
-      fill: #a4a832;
+      fill: #c92981;
     }
   }
 
@@ -371,7 +371,7 @@ a {
 
   @keyframes colorEmail {
     to {
-      stroke: #b23121;
+      stroke: #e01300;
     }
   }
 
@@ -389,7 +389,7 @@ a {
 
   @keyframes colorItchio {
     to {
-      stroke: #a4a832;
+      stroke: #c92981;
     }
   }
 }
