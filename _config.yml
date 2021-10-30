@@ -3,6 +3,7 @@
 title: John Spantouris
 # description: This will be meta HTML tag content. This can be ignored.
 description: Personal portfolio
+og_description: Portfolio page of John Spantouris
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
 baseurl: ""
