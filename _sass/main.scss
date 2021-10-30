@@ -246,6 +246,11 @@ a {
   top: 40%;
 }
 
+#txt-rotate > .wrap
+{ 
+  border-right: 0.08em solid #666;
+}
+
 .landing-icons {
   display: flex;
   justify-content: center;
