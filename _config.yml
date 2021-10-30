@@ -17,7 +17,7 @@ discord_server_url: https://discord.gg/k7EJSAkWDG
 # About me
 show_aboutme_card: true
 about_me_title: About Me
-about_me_description: My name is <b>John Spantouris</b>, I was born and currently live in Athens, Greece. Currently working as a Lead Software Engineer for <a href="https://www.pobuca.com" class="highlight-link" target="_blank" rel="noreferrer">Pobuca</a> building Web Applications with .NET on Microsoft Azure. Hobbyist game developer since 2013.
+about_me_description: My name is <b>John Spantouris</b>, born and raised in Athens, Greece. Lead Software Engineer for <a href="https://www.pobuca.com" class="highlight-link" target="_blank" rel="noreferrer">Pobuca</a>, building Web Applications with .NET on Microsoft Azure. Hobbyist game developer since 2013.
 
 # TIMELINE SECTION
 # show_timeline_card:
