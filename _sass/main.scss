@@ -343,6 +343,16 @@ a {
     }
   }
 
+  .discord:hover {
+    .circle {
+      animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
+        colorDiscord 1s linear forwards;
+    }
+    .social-svg {
+      fill: #591dff;
+    }
+  }
+
   @keyframes outWaveIn {
     to {
       stroke-dasharray: 510;
@@ -390,6 +400,12 @@ a {
   @keyframes colorItchio {
     to {
       stroke: #c92981;
+    }
+  }
+
+  @keyframes colorDiscord {
+    to {
+      stroke: #591dff;
     }
   }
 }
