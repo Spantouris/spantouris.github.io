@@ -1,3 +1,10 @@
+- name: CodeWars
+  demo: https://spantouris.itch.io/codewars
+  image: "assets/projects/CodeWars.jpg"
+  date: '2021'
+  tags:
+    - tag: Unity
+
 - name: Bomb-O-Mastoras
   demo: https://spantouris.itch.io/bomb-o-mastoras
   image: "assets/projects/Bomb-O-Mastoras.png"
@@ -55,3 +62,4 @@
   tags:
     - tag: Unity
     - tag: Global Game Jam
+
