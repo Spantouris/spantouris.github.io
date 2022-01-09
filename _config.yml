@@ -12,7 +12,7 @@ email: john.spantouris@gmail.com
 github_username: spantouris
 linkedin_username: spantouris
 itchio_username: spantouris
-discord_server_url: https://discord.gg/k7EJSAkWDG
+discord_server_url: https://discord.gg/dxewRGj7hb
 
 # About me
 show_aboutme_card: true
@@ -31,7 +31,7 @@ projects_title: Projects
 # Contact
 show_contact_card: true
 contact_title: Contact
-contact_description: Do you have any exciting project or a job opportunity that you think I may be a good fit for? Feel free to contact me <a class="highlight-link" href="mailto:john.spantouris@gmail.com" target="_blank" rel="noreferrer">here</a>. Don't forget to join our Greek Artist Discord Community as well if you'd like 😁
+contact_description: Do you have any exciting project or a job opportunity that you think I may be a good fit for? Feel free to contact me <a class="highlight-link" href="mailto:john.spantouris@gmail.com" target="_blank" rel="noreferrer">here</a>. Don't forget to join our Greek Artist Discord Community as well if you'd like clicking the discord link below 😁
 
 exclude:
   [
