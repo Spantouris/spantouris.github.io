@@ -29,8 +29,8 @@
   timeline-side: right
 
 - title: Pobuca
-  title-url: https://example.com/
-  date: 2021 - Present
+  title-url: https://www.pobuca.com/
+  date: 2021
   showDetails: true
   tags:
     - tag: CI/CD
@@ -38,3 +38,10 @@
     - tag: IaC
   subtitle: Lead Software Engineer
   timeline-side: left
+
+- title: Microsoft
+  title-url: https://microsoft.com/
+  date: 2022 - Present
+  showDetails: true
+  subtitle: Software Engineer
+  timeline-side: right

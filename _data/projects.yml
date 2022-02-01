@@ -1,3 +1,10 @@
+- name: Nosfera-Two
+  demo: https://globalgamejam.org/2022/games/nosfera-two-duelity-8
+  image: "assets/projects/Nosfera-Two.png"
+  date: '2022'
+  tags:
+    - tag: Unity
+
 - name: CodeWars
   demo: https://spantouris.itch.io/codewars
   image: "assets/projects/CodeWars.jpg"

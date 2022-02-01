@@ -5,7 +5,7 @@ og_description: Portfolio page of John Spantouris
 
 # Hero Title
 username: John Spantouris
-typing_text: Lead Software Engineer - Game Developer
+typing_text: Software Engineer - Game Developer
 
 # Social
 email: john.spantouris@gmail.com
@@ -17,7 +17,7 @@ discord_server_url: https://discord.gg/dxewRGj7hb
 # About me
 show_aboutme_card: true
 about_me_title: About Me
-about_me_description: My name is <b>John Spantouris</b>, born and living in Athens, Greece. Lead Software Engineer for <a href="https://www.pobuca.com" class="highlight-link" target="_blank" rel="noreferrer">Pobuca</a>, building Web Applications with .NET on Microsoft Azure. Hobbyist game developer since 2013.
+about_me_description: My name is <b>John Spantouris</b>, born and living in Athens, Greece. Software Engineer for <a href="https://microsoft.com" class="highlight-link" target="_blank" rel="noreferrer">Microsoft</a>, building desktop Applications with .NET. Hobbyist game developer since 2013.
 
 # Timeline
 show_timeline_card: true
@@ -31,7 +31,7 @@ projects_title: Projects
 # Contact
 show_contact_card: true
 contact_title: Contact
-contact_description: Do you have any exciting project or a job opportunity that you think I may be a good fit for? Feel free to contact me <a class="highlight-link" href="mailto:john.spantouris@gmail.com" target="_blank" rel="noreferrer">here</a>. Don't forget to join our Greek Artist Discord Community as well if you'd like clicking the discord link below 😁
+contact_description: Do you have any exciting project or a job opportunity that you think I may be a good fit for? Feel free to contact me <a class="highlight-link" href="mailto:john.spantouris@gmail.com" target="_blank" rel="noreferrer">here</a>. Don't forget to join our <i>Greek Artist Discord Community</i> as well if you'd like clicking the discord link below 😁
 
 exclude:
   [
